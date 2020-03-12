@@ -1,5 +1,6 @@
 import hashlib
 import uuid
+import os
 from flask import Flask, render_template, request, redirect, url_for, make_response, Blueprint
 
 from models.topic import Topic
